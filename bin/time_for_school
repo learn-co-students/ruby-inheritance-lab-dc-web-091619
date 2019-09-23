@@ -23,3 +23,5 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' fr
 jim = User.new
 jim.first_name = "Jimmy"
 jim.last_name =  "Holland"
+
+# jim.learn  << doesn't work becuase learn is under the Student class
